@@ -4,11 +4,11 @@
 */
 MACHINE
     maze
+    
 CONSTANTS
     mazeX, mazeY, mazeStructure, internalMazeWalls, emptyMazeSquares, entranceSquare, exitSquare
     
 PROPERTIES
-    
     mazeX = 1..7 &
     mazeY = 1..5 &
     mazeStructure = mazeX * mazeY &

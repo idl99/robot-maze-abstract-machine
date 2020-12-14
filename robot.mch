@@ -48,7 +48,7 @@ INITIALISATION
     robotMovementHistory := [entranceSquare]
     
 OPERATIONS
-    message <-- travelNorth =
+    message <-- moveNorth =
     BEGIN
         IF
             isEmptyMazeSquare(currentXLocation, currentYLocation + 1)
@@ -67,7 +67,7 @@ OPERATIONS
         END
     END;
     
-    message <-- travelSouth =
+    message <-- moveSouth =
     BEGIN
         IF
             isEmptyMazeSquare(currentXLocation, currentYLocation - 1)
@@ -86,7 +86,7 @@ OPERATIONS
         END
     END;
     
-    message <-- travelEast =
+    message <-- moveEast =
     BEGIN
         IF
             isEmptyMazeSquare(currentXLocation + 1, currentYLocation)
@@ -105,7 +105,7 @@ OPERATIONS
         END
     END;
     
-    message <-- travelWest =
+    message <-- moveWest =
     BEGIN
         IF
             isEmptyMazeSquare(currentXLocation - 1, currentYLocation)
@@ -148,7 +148,7 @@ OPERATIONS
         END
     END;
     
-    robotLocation <-- getLocation = 
+    robotLocation <-- getPosition = 
     BEGIN
         robotLocation := currentXLocation |-> currentYLocation 
     END;
@@ -163,11 +163,6 @@ OPERATIONS
         END
     END;
     
-    routeTaken <-- robotsRoute =
-    BEGIN
-        routeTaken := robotMovementHistory
-    END;
-    
     visitedSquare <-- hasVisitedSquare(xPosition, yPosition) =
     PRE
         visitedSquare : VISITED_SQUARE &
@@ -180,6 +175,11 @@ OPERATIONS
         ELSE
             visitedSquare := NOT_VISITED
         END
+    END;
+    
+    routeTaken <-- robotsRoute =
+    BEGIN
+        routeTaken := robotMovementHistory
     END
     
 END
