@@ -1,0 +1,490 @@
+digraph "visited_states" {
+	graph [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		nodesep = "1.5"
+		ranksep = "1.5"
+	]
+	node [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "ellipse"
+		style = "solid"
+	]
+	edge [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"root" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "root"
+		shape = "invtriangle"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"0" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "mazeX = \{1,2,3,4,5,6,7\},mazeY = \{1,2,3,4,5\},mazeStructure = \{(1\|-\>1),(1\|-\>2),(1\|-\>3),(1\|-\>4),(1\|-\>5),(2\|-\>1),(2\|-\>2),(2\|-\>3),(2\|-\>4),(2\|-\>5),(3\|-\>1),(3\|-\>2),(3\|-\>3),(3\|-\>4),(3\|-\>5),(4\|-\>1),(4\|-\>2),(4\|-\>3),(4\|-\>4),(4\|-\>5),(5\|-\>1),(5\|-\>2),(5\|-\>3),(5\|-\>4),(5\|-\>5),(6\|-\>1),(6\|-\>2),(6\|-\>3),(6\|-\>4),(6\|-\>5),(7\|-\>1),(7\|-\>2),(7\|-\>3),(7\|-\>4),(7\|-\>5)\},\ninternalMazeWalls = \{(1\|-\>3),(2\|-\>1),(2\|-\>3),(2\|-\>5),(3\|-\>3),(4\|-\>2),(4\|-\>3),(4\|-\>4),(6\|-\>1),(6\|-\>2),(6\|-\>4),(7\|-\>4)\},emptyMazeSquares = \{(1\|-\>1),(1\|-\>2),(1\|-\>4),(1\|-\>5),(2\|-\>2),(2\|-\>4),(3\|-\>1),(3\|-\>2),(3\|-\>4),(3\|-\>5),(4\|-\>1),(4\|-\>5),(5\|-\>1),(5\|-\>2),(5\|-\>3),(5\|-\>4),(5\|-\>5),(6\|-\>3),(6\|-\>5),(7\|-\>1),(7\|-\>2),(7\|-\>3),(7\|-\>5)\},entranceSquare = (1\|-\>1),\nexitSquare = (1\|-\>5)"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"1" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 1,currentYLocation = 1,robotMovementHistory(1) = (1\|-\>1)"
+		shape = "doubleoctagon"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"2" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 1,currentYLocation = 2,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (1\|-\>2)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"3" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 1,currentYLocation = 1,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (1\|-\>1)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"4" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 3,currentYLocation = 1,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (3\|-\>1)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"5" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 4,currentYLocation = 1,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (4\|-\>1)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"6" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 5,currentYLocation = 1,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (5\|-\>1)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"7" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 7,currentYLocation = 1,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (7\|-\>1)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"8" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 2,currentYLocation = 2,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (2\|-\>2)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"9" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 3,currentYLocation = 2,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (3\|-\>2)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"10" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 5,currentYLocation = 2,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (5\|-\>2)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"11" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 7,currentYLocation = 2,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (7\|-\>2)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"12" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 5,currentYLocation = 3,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (5\|-\>3)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"13" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 6,currentYLocation = 3,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (6\|-\>3)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"14" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 7,currentYLocation = 3,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (7\|-\>3)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"15" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 1,currentYLocation = 4,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (1\|-\>4)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"16" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 2,currentYLocation = 4,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (2\|-\>4)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"17" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 3,currentYLocation = 4,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (3\|-\>4)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"18" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 5,currentYLocation = 4,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (5\|-\>4)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"19" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 1,currentYLocation = 5,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (1\|-\>5)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"20" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 3,currentYLocation = 5,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (3\|-\>5)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"21" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 4,currentYLocation = 5,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (4\|-\>5)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"22" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 5,currentYLocation = 5,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (5\|-\>5)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"23" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 6,currentYLocation = 5,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (6\|-\>5)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"24" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentXLocation = 7,currentYLocation = 5,robotMovementHistory(1) = (1\|-\>1),\nrobotMovementHistory(2) = (7\|-\>5)"
+		shape = "box"
+		style = "solid"
+		color = "#F4E3C1"
+	]
+	"root" -> "0" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "SETUP_CONSTANTS"
+		style = "dotted"
+		color = "black"
+	]
+	"0" -> "1" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "INITIALISATION"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "2" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "moveNorth--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "3" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(1,1)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "4" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(3,1)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "5" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(4,1)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "6" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(5,1)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "7" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(7,1)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "2" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(1,2)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "8" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(2,2)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "9" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(3,2)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "10" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(5,2)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "11" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(7,2)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "12" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(5,3)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "13" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(6,3)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "14" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(7,3)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "15" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(1,4)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "16" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(2,4)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "17" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(3,4)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "18" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(5,4)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "19" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(1,5)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "20" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(3,5)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "21" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(4,5)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "22" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(5,5)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "23" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(6,5)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "24" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "teleport(7,5)--\>OPERATION_SUCCESSFUL"
+		style = "solid"
+		color = "#006391"
+	]
+}
