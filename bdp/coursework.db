@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<db_xml>
+    <atelierb version="3_7_ubuntu-cvs" />
+    <project decomp_dir="D:\IIT\L6\RAP\coursework\bdp\expand_src" old_decomp_dir="D:\IIT\L6\RAP\coursework\bdp\src">
+        <!-- Definition directory list -->
+        <definition_dir path="D:\IIT\L6\RAP\coursework" />
+        <!-- Component file list -->
+        <component_file path="D:\IIT\L6\RAP\coursework" name="maze" suffix="mch" user="Ihan">
+            <component name="maze" type="specification" />
+        </component_file>
+        <component_file path="D:\IIT\L6\RAP\coursework" name="robot" suffix="mch" user="Ihan">
+            <component name="robot" type="specification" />
+        </component_file>
+    </project>
+</db_xml>
