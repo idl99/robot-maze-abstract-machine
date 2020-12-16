@@ -7,3 +7,7 @@ lang/
 
 # ProB generated
 *.prob
+
+# Exclude copies of Robot and Maze machines inside the submission folder
+submission/robot.mch
+submission/maze.mch
