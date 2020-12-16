@@ -1,2 +1,9 @@
 # ignore zip files
 *.zip
+
+# AtelierB project setup related
+bdp/
+lang/
+
+# ProB generated
+*.prob
