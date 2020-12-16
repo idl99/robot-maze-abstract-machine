@@ -1,6 +1,0 @@
-digraph {
-maze [ label=" maze " shape= box ]
-robot [ label=" robot " shape= box ]
-
-"robot" -> "maze" [style= dotted ]
-}
